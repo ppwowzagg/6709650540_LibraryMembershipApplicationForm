@@ -12,9 +12,9 @@
         <form >
             <label for="fullname-th">ชื่อ - นามสกุล (ภาษาไทย)<span class="required">*</span>:</label>
             <input type="text" id="fullname-th" name="fullname-th" pattern="[\u0E00-\u0E7F\s]+" required placeholder="กรุณากรอกชื่อ - นามสกุล">
-
             <label for="fullname-en">ชื่อ - นามสกุล (ภาษาอังกฤษ)<span class="required">*</span>:</label>
             <input type="text" id="fullname-en" name="fullname-en" pattern="[A-Za-z\s]+" required placeholder="กรุณากรอกชื่อ - นามสกุล">
+            
             <label>เพศ<span class="required">*</span>:</label>
             <div class="gender-options">
                 <input type="radio" id="male" name="gender" value="ชาย" required>
@@ -24,3 +24,6 @@
                 <input type="radio" id="other" name="gender" value="อื่นๆ" required>
                 <label for="other">อื่นๆ</label>
             </div>
+
+            <label for="student-id">รหัสนักศึกษา<span class="required">*</span>:</label>
+            <input type="text" id="student-id" name="student-id" pattern="\d{10}" required placeholder="กรุณากรอกรหัสนักศึกษา 10 หลัก">
