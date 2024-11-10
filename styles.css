@@ -34,3 +34,37 @@ h1 {
     font-family: 'Dancing Script', cursive;
     margin-top: 0; /* กำหนดให้ไม่มีมาร์จินด้านบน */
 }
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+input[type="text"], 
+input[type="email"], 
+input[type="date"], 
+input[list], 
+select {
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 2px solid #f0a6d8;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    background-color: #fff0f5;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="date"]:focus, 
+input[list]:focus, 
+select:focus {
+    border-color: #FF7B9A;
+    outline: none;
+}
