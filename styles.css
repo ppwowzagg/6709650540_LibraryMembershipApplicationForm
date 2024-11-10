@@ -68,3 +68,24 @@ select:focus {
     border-color: #FF7B9A;
     outline: none;
 }
+.required {
+    color: #FF7B9A;
+}
+.gender-options input[type="radio"],
+.subscribe-options input[type="radio"] {
+    margin-right: 10px;
+}
+div.gender-options, 
+div.subscribe-options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+div.gender-options label, 
+div.subscribe-options label {
+    margin-right: 20px;
+    font-size: 14px;
+}
+button, label, input, select {
+    font-family: 'Poppins', sans-serif;
+}
