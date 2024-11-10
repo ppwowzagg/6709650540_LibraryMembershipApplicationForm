@@ -89,3 +89,11 @@ div.subscribe-options label {
 button, label, input, select {
     font-family: 'Poppins', sans-serif;
 }
+input:invalid {
+    border-color: #FF7B9A;
+}
+input:invalid + .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
