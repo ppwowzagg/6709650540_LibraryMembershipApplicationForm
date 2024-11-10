@@ -14,7 +14,7 @@
             <input type="text" id="fullname-th" name="fullname-th" pattern="[\u0E00-\u0E7F\s]+" required placeholder="กรุณากรอกชื่อ - นามสกุล">
             <label for="fullname-en">ชื่อ - นามสกุล (ภาษาอังกฤษ)<span class="required">*</span>:</label>
             <input type="text" id="fullname-en" name="fullname-en" pattern="[A-Za-z\s]+" required placeholder="กรุณากรอกชื่อ - นามสกุล">
-            
+
             <label>เพศ<span class="required">*</span>:</label>
             <div class="gender-options">
                 <input type="radio" id="male" name="gender" value="ชาย" required>
@@ -27,3 +27,19 @@
 
             <label for="student-id">รหัสนักศึกษา<span class="required">*</span>:</label>
             <input type="text" id="student-id" name="student-id" pattern="\d{10}" required placeholder="กรุณากรอกรหัสนักศึกษา 10 หลัก">
+        
+            <label for="faculty">คณะที่ศึกษา<span class="required">*</span>:</label>
+            <input list="faculties" id="faculty" name="faculty" required placeholder="กรุณากรอกคณะที่ศึกษา">
+            <datalist id="faculties">
+                <option value="คณะวิทยาศาสตร์และเทคโนโลยี">คณะวิทยาศาสตร์และเทคโนโลยี</option>
+                <option value="คณะวิศวกรรมศาสตร์">คณะวิศวกรรมศาสตร์</option>
+                <option value="คณะมนุษยศาสตร์">คณะมนุษยศาสตร์</option>
+                <option value="คณะศึกษาศาสตร์">คณะศึกษาศาสตร์</option>
+                <option value="คณะเภสัชศาสตร์">คณะเภสัชศาสตร์</option>
+                <option value="คณะพาณิชยศาสตร์และการบัญชี">คณะพาณิชยศาสตร์และการบัญชี</option>
+                <option value="คณะเศรษฐศาสตร์">คณะเศรษฐศาสตร์</option>
+                <option value="คณะนิติศาสตร์">คณะนิติศาสตร์</option>
+                <option value="คณะสถาปัตยกรรมศาสตร์">คณะสถาปัตยกรรมศาสตร์</option>
+                <option value="คณะสาธารณสุขศาสตร์">คณะสาธารณสุขศาสตร์</option>
+                <option value="คณะอื่นๆ" >คณะอื่นๆ</option>
+            </datalist>
