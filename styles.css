@@ -97,3 +97,19 @@ input:invalid + .error-message {
     font-size: 12px;
     margin-top: 5px;
 }
+button {
+    background-color: #FF7B9A;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    background-color: #FF5A72;
+}
